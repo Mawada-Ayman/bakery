@@ -1,0 +1,322 @@
+body {
+    margin: 0;
+}
+
+.font-Alegreya-Sans{
+    font-family: "Alegreya Sans";
+}
+
+.font-Alegreya{
+    font-family:"Alegreya ";
+    font-weight: 100;
+}
+
+.color-light-gray{
+    color: rgb(163, 163, 163);
+}
+
+.color-gray{
+    color: rgb(81, 81, 81);
+}
+
+
+.clear-fix{
+    clear: both;
+}
+
+/* start hero section */
+.hero-section {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position:center center ;
+    background-size:cover;
+    height: 100vh;
+}
+
+
+
+.hero-section .navbar {
+    padding: 10px 50px ;
+}
+
+.hero-section .navbar .logo {
+    padding: 0 50px;
+    display: inline-block;
+}
+
+.hero-section .navbar .logo img{
+    width: 200px;
+}
+
+
+.navbar .items {
+    display: inline-block;
+    padding-left: 450px;
+}
+
+.navbar .items .item li {
+    color: white;
+    list-style: none;
+    display: inline;
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+
+.hero-text {
+    width: 70%;
+    color: white;
+    text-align: center;
+    margin: 170px auto;
+}
+
+.hero-text h1{
+    margin: 0 ;
+    font-size: 65px;
+    font-weight: 100;
+}
+
+.hero-text span{
+    font-size: 20px;
+}
+
+
+.hero-text p{
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+
+.hero-text .btn{
+    background-color: #A28556;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.btn-2{
+    border: 1px white solid;
+    padding: 20px 20px ;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+ /* end hero section  */
+
+
+ /* start section Who we are */
+
+.section-2 {
+    margin: 80px 0 0px 200px;
+}
+
+.section-2 .img-sec-2 img{
+    width: 600px;
+}
+
+.section-2 .img-sec-2 {
+    display: inline-block;
+}
+
+.section-2 .text-sec-2{
+    display: inline-block;
+}
+
+.section-2 .text-sec-2 .text-top  {
+    padding-left: 80px;
+}
+
+
+.section-2 .text-sec-2 .text-top p  {
+    padding: 10px 0;
+}
+
+.section-2 .text-sec-2 .text-top h2  {
+    font-size: 35px;
+    font-weight: 100;
+    color: rgb(57, 57, 57);
+}
+
+
+
+.section-2 .text-list .list-item li img{
+    width: 40px;
+    border: #A28556 solid 1px;
+    border-radius: 50%;
+    margin:0 10px 0 20px;
+}
+
+.section-2 .text-list .list-item li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+  /* end section Who we are */
+
+
+
+/*start sec (3) our location */
+
+.sec-our-location {
+    background-color: #F8F8F8;
+    padding:90px 70px ;
+    margin-top: 60px;
+}
+
+.sec-our-location .text-left {
+    display: inline-block;
+    padding-left: 40px;
+}
+
+
+.sec-our-location .text-left h2 {
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(60, 60, 60);
+}
+
+
+.sec-our-location .img-sec-3 {
+    display: inline;
+    padding-left:70px;
+}
+
+
+.sec-our-location .img-sec-3 img{
+    width: 600px;
+}
+
+/*end sec (3) our location */
+
+
+
+
+ /* start sec(4) our Baking  */
+
+.alig-center{
+    text-align: center;
+}
+.iteems{
+    width: 25%;
+    float: left;
+    margin-right: 100px;
+}
+
+    .intro-sec-3{
+        text-align: center;
+        margin: 70px 0;
+    }
+
+    .contanr .iteems img{
+        width: 360px;
+    }
+
+    .contanr{
+        width: 80%;
+        margin: auto;
+    }
+/* end sec(4) our Baking */
+
+
+/* start sec cotact  */
+
+.sec-map{
+    background-color: rgb(241, 241, 241);
+    margin-top: 70px;
+    padding:100px 20px 100px 150px;
+}
+
+.text{
+    float: left;
+    width: 50%;
+}
+
+.text .top {
+    padding-bottom: 20px;
+}
+
+.sec-map .text .bottom ul li {
+    list-style: none;
+}
+
+
+.sec-map .text .bottom ul li img {
+    background-color: #A28556;
+    border-radius: 50%;
+    width: 40px;
+    margin:20px 10px 0 0;
+}
+
+.sec-map .text .bottom ul{
+    padding: 0;
+}
+
+.map{
+    float: right;
+    width: 50%;
+}
+
+/* end sec cotact  */
+
+
+/* footer */
+
+.footer{
+    padding: 30px 70px;
+    background-image: url(../images/contact-details-map.png);
+    background-color: #403D38;
+    background-repeat: no-repeat;
+    background-position: 1200px  ;
+}
+
+.footer .countenr .details h2{
+    color: white;
+}
+
+.footer .countenr .details ul li {
+    padding: 10px 0;
+    list-style: none;
+}
+
+.footer .countenr .details ul li .special{
+    padding-left: 50px;
+}
+
+
+.footer .details{
+    float: left;
+    width: 25%;
+}
+
+
+.footer-logo{
+    background-color: #353330;
+    padding: 90px 600px ;
+    text-align: center;
+}
+
+
+.footer-logo .loggo{
+    padding-bottom: 25px;
+}
+
+
+.footer-logo .icon{
+    background-color:#403D38;
+    border-radius: 50%;
+    margin-top: 25px;
+    width: 40px;
+}
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
